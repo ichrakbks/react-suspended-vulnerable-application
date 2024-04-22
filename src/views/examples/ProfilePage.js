@@ -65,6 +65,7 @@ const carouselItems = [
   },
 ];
 
+const aws_secret = "GDEYGBAHDAJDUZHD";
 let ps = null;
 
 export default function ProfilePage() {
