@@ -48,8 +48,7 @@ export default function RegisterPage() {
   const [fullNameFocus, setFullNameFocus] = React.useState(false);
   const [emailFocus, setEmailFocus] = React.useState(false);
   const [passwordFocus, setPasswordFocus] = React.useState(false);
-  const apiKey = "hckebyefbzaufbzjabu1258";
-  const password = "your_password_here";
+
   React.useEffect(() => {
     document.body.classList.toggle("register-page");
     document.documentElement.addEventListener("mousemove", followCursor);
